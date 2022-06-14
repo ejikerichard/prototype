@@ -1,0 +1,1468 @@
+fileFormatVersion: 2
+guid: e192e22ee92be6d43ad378e76bcff494
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftLowerLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: environment character camera(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: camera1
+      parentName: environment character camera(Clone)
+      position: {x: 0.25107682, y: 10.217294, z: 17.153141}
+      rotation: {x: 0, y: -0.9798496, z: 0.19973695, w: 0}
+      scale: {x: 77.730385, y: 77.730385, z: 77.730385}
+    - name: character
+      parentName: environment character camera(Clone)
+      position: {x: 0.25107422, y: 0.86814535, z: 6.532413}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: start_line
+      parentName: environment character camera(Clone)
+      position: {x: -0, y: 0.008957252, z: 3.7361152}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: finish_line
+      parentName: environment character camera(Clone)
+      position: {x: -292.7726, y: 6.105184, z: -227.76363}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HookPoints
+      parentName: environment character camera(Clone)
+      position: {x: -84.27316, y: 31.100163, z: -135.1965}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hookpoint1
+      parentName: HookPoints
+      position: {x: 84.27316, y: -10.258676, z: 113.122215}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hookpoint2
+      parentName: HookPoints
+      position: {x: 84.27316, y: -12.716766, z: 63.10751}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hookpoint3
+      parentName: HookPoints
+      position: {x: 84.27316, y: -4.7879972, z: 41.561928}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hookpoint4
+      parentName: HookPoints
+      position: {x: 84.27316, y: -5.063479, z: -29.365946}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hookpoint5
+      parentName: HookPoints
+      position: {x: 44.74596, y: -5.063479, z: -90.32461}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hookpoint6
+      parentName: HookPoints
+      position: {x: -34.454235, y: 4.3412123, z: -90.91551}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hookpoint7
+      parentName: HookPoints
+      position: {x: -71.43718, y: 12.716766, z: -90.91551}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hookpoint8
+      parentName: HookPoints
+      position: {x: -106.47985, y: 6.2690606, z: -90.91551}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bricks_demolish_me
+      parentName: environment character camera(Clone)
+      position: {x: -303.08313, y: 10.594648, z: -228.28958}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface1
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.4823503, z: -2.4370036}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface2
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.4823503, z: -1.9939079}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface3
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.4823503, z: -1.5508122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface4
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.4823503, z: -1.1077262}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface5
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.4823503, z: -0.6646305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface6
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.4823503, z: -0.22153483}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface7
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.4823503, z: 0.22155109}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface8
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.4823503, z: 0.6646468}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface9
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.4823503, z: 1.1077425}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface10
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.4823503, z: 1.5508283}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface11
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.4823503, z: 1.993924}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface12
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.4823503, z: 2.4370198}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface13
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.0480886, z: -2.4370036}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface14
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.0480886, z: -1.9939079}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface15
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.0480886, z: -1.5508122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface16
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.0480886, z: -1.1077262}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface17
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.0480886, z: -0.6646305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface18
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.0480886, z: -0.22153483}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface19
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.0480886, z: 0.22155109}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface20
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.0480886, z: 0.6646468}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface21
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.0480886, z: 1.1077425}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface22
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.0480886, z: 1.5508283}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface23
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.0480886, z: 1.993924}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface24
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.0480886, z: 2.4370198}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface25
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -2.6138268, z: -2.4370036}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface26
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -2.6138268, z: -1.9939079}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface27
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -2.6138268, z: -1.5508122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface28
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -2.6138268, z: -1.1077262}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface29
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -2.6138268, z: -0.6646305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface30
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -2.6138268, z: -0.22153483}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface31
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -2.6138268, z: 0.22155109}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface32
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -2.6138268, z: 0.6646468}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface33
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -2.6138268, z: 1.1077425}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface34
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -2.6138268, z: 1.5508283}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface35
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -2.6138268, z: 1.993924}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface36
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -2.6138268, z: 2.4370198}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface37
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -2.179565, z: -2.4370036}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface38
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -2.179565, z: -1.9939079}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface39
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -2.179565, z: -1.5508122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface40
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -2.179565, z: -1.1077262}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface41
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -2.179565, z: -0.6646305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface42
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -2.179565, z: -0.22153483}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface43
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -2.179565, z: 0.22155109}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface44
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -2.179565, z: 0.6646468}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface45
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -2.179565, z: 1.1077425}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface46
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -2.179565, z: 1.5508283}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface47
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -2.179565, z: 1.993924}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface48
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -2.179565, z: 2.4370198}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface49
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -1.7453032, z: -2.4370036}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface50
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -1.7453032, z: -1.9939079}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface51
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -1.7453032, z: -1.5508122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface52
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -1.7453032, z: -1.1077262}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface53
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -1.7453032, z: -0.6646305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface54
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -1.7453032, z: -0.22153483}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface55
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -1.7453032, z: 0.22155109}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface56
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -1.7453032, z: 0.6646468}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface57
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -1.7453032, z: 1.1077425}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface58
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -1.7453032, z: 1.5508283}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface59
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -1.7453032, z: 1.993924}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface60
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -1.7453032, z: 2.4370198}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface61
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -1.3110411, z: -2.4370036}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface62
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -1.3110411, z: -1.9939079}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface63
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -1.3110411, z: -1.5508122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface64
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -1.3110411, z: -1.1077262}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface65
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -1.3110411, z: -0.6646305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface66
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -1.3110411, z: -0.22153483}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface67
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -1.3110411, z: 0.22155109}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface68
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -1.3110411, z: 0.6646468}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface69
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -1.3110411, z: 1.1077425}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface70
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -1.3110411, z: 1.5508283}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface71
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -1.3110411, z: 1.993924}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface72
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -1.3110411, z: 2.4370198}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface73
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.8767796, z: -2.4370036}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface74
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.8767796, z: -1.9939079}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface75
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.8767796, z: -1.5508122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface76
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.8767796, z: -1.1077262}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface77
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.8767796, z: -0.6646305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface78
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.8767796, z: -0.22153483}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface79
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.8767796, z: 0.22155109}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface80
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.8767796, z: 0.6646468}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface81
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.8767796, z: 1.1077425}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface82
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.8767796, z: 1.5508283}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface83
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.8767796, z: 1.993924}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface84
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.8767796, z: 2.4370198}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface85
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.44251817, z: -2.4370036}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface86
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.44251817, z: -1.9939079}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface87
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.44251817, z: -1.5508122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface88
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.44251817, z: -1.1077262}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface89
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.44251817, z: -0.6646305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface90
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.44251817, z: -0.22153483}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface91
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.44251817, z: 0.22155109}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface92
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.44251817, z: 0.6646468}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface93
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.44251817, z: 1.1077425}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface94
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.44251817, z: 1.5508283}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface95
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.44251817, z: 1.993924}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface96
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.44251817, z: 2.4370198}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface97
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.008256104, z: -2.4370036}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface98
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.008256104, z: -1.9939079}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface99
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.008256104, z: -1.5508122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface100
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.008256104, z: -1.1077262}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface101
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.008256104, z: -0.6646305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface102
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.008256104, z: -0.22153483}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface103
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.008256104, z: 0.22155109}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface104
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.008256104, z: 0.6646468}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface105
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.008256104, z: 1.1077425}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface106
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.008256104, z: 1.5508283}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface107
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.008256104, z: 1.993924}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface108
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -0.008256104, z: 2.4370198}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface109
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 0.42600596, z: -2.4370036}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface110
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 0.42600596, z: -1.9939079}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface111
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 0.42600596, z: -1.5508122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface112
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 0.42600596, z: -1.1077262}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface113
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 0.42600596, z: -0.6646305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface114
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 0.42600596, z: -0.22153483}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface115
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 0.42600596, z: 0.22155109}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface116
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 0.42600596, z: 0.6646468}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface117
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 0.42600596, z: 1.1077425}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface118
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 0.42600596, z: 1.5508283}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface119
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 0.42600596, z: 1.993924}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface120
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 0.42600596, z: 2.4370198}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface121
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 0.86026746, z: -2.4370036}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface122
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 0.86026746, z: -1.9939079}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface123
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 0.86026746, z: -1.5508122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface124
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 0.86026746, z: -1.1077262}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface125
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 0.86026746, z: -0.6646305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface126
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 0.86026746, z: -0.22153483}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface127
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 0.86026746, z: 0.22155109}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface128
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 0.86026746, z: 0.6646468}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface129
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 0.86026746, z: 1.1077425}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface130
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 0.86026746, z: 1.5508283}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface131
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 0.86026746, z: 1.993924}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface132
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 0.86026746, z: 2.4370198}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface133
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 1.294529, z: -2.4370036}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface134
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 1.294529, z: -1.9939079}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface135
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 1.294529, z: -1.5508122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface136
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 1.294529, z: -1.1077262}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface137
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 1.294529, z: -0.6646305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface138
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 1.294529, z: -0.22153483}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface139
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 1.294529, z: 0.22155109}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface140
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 1.294529, z: 0.6646468}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface141
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 1.294529, z: 1.1077425}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface142
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 1.294529, z: 1.5508283}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface143
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 1.294529, z: 1.993924}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface144
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 1.294529, z: 2.4370198}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface145
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 1.728791, z: -2.4370036}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface146
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 1.728791, z: -1.9939079}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface147
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 1.728791, z: -1.5508122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface148
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 1.728791, z: -1.1077262}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface149
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 1.728791, z: -0.6646305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface150
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 1.728791, z: -0.22153483}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface151
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 1.728791, z: 0.22155109}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface152
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 1.728791, z: 0.6646468}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface153
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 1.728791, z: 1.1077425}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface154
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 1.728791, z: 1.5508283}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface155
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 1.728791, z: 1.993924}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface156
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 1.728791, z: 2.4370198}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface157
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 2.1630526, z: -2.4370036}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface158
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 2.1630526, z: -1.9939079}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface159
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 2.1630526, z: -1.5508122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface160
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 2.1630526, z: -1.1077262}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface161
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 2.1630526, z: -0.6646305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface162
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 2.1630526, z: -0.22153483}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface163
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 2.1630526, z: 0.22155109}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface164
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 2.1630526, z: 0.6646468}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface165
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 2.1630526, z: 1.1077425}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface166
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 2.1630526, z: 1.5508283}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface167
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 2.1630526, z: 1.993924}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface168
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 2.1630526, z: 2.4370198}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface169
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 2.5973144, z: -2.4370036}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface170
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 2.5973144, z: -1.9939079}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface171
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 2.5973144, z: -1.5508122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface172
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 2.5973144, z: -1.1077262}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface173
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 2.5973144, z: -0.6646305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface174
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 2.5973144, z: -0.22153483}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface175
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 2.5973144, z: 0.22155109}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface176
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 2.5973144, z: 0.6646468}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface177
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 2.5973144, z: 1.1077425}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface178
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 2.5973144, z: 1.5508283}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface179
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 2.5973144, z: 1.993924}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface180
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 2.5973144, z: 2.4370198}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface181
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.0315764, z: -2.4370036}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface182
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.0315764, z: -1.9939079}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface183
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.0315764, z: -1.5508122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface184
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.0315764, z: -1.1077262}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface185
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.0315764, z: -0.6646305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface186
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.0315764, z: -0.22153483}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface187
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.0315764, z: 0.22155109}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface188
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.0315764, z: 0.6646468}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface189
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.0315764, z: 1.1077425}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface190
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.0315764, z: 1.5508283}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface191
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.0315764, z: 1.993924}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface192
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.0315764, z: 2.4370198}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface193
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.4658377, z: -2.4370036}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface194
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.4658377, z: -1.9939079}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface195
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.4658377, z: -1.5508122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface196
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.4658377, z: -1.1077262}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface197
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.4658377, z: -0.6646305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface198
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.4658377, z: -0.22153483}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface199
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.4658377, z: 0.22155109}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface200
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.4658377, z: 0.6646468}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface201
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.4658377, z: 1.1077425}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface202
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.4658377, z: 1.5508283}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface203
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.4658377, z: 1.993924}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface204
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.4658377, z: 2.4370198}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface205
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.9001, z: -2.4370036}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface206
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.9001, z: -1.9939079}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface207
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.9001, z: -1.5508122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface208
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.9001, z: -1.1077262}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface209
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.9001, z: -0.6646305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface210
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.9001, z: -0.22153483}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface211
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.9001, z: 0.22155109}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface212
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.9001, z: 0.6646468}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface213
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.9001, z: 1.1077425}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface214
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.9001, z: 1.5508283}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface215
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.9001, z: 1.993924}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface216
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 3.9001, z: 2.4370198}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface217
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 4.3343616, z: -2.4370036}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface218
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 4.3343616, z: -1.9939079}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface219
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 4.3343616, z: -1.5508122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface220
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 4.3343616, z: -1.1077262}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface221
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 4.3343616, z: -0.6646305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface222
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 4.3343616, z: -0.22153483}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface223
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 4.3343616, z: 0.22155109}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface224
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 4.3343616, z: 0.6646468}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface225
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 4.3343616, z: 1.1077425}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface226
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 4.3343616, z: 1.5508283}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface227
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 4.3343616, z: 1.993924}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface228
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: 4.3343616, z: 2.4370198}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface229
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.905777, z: 1.5508283}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface230
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.905777, z: 2.4370198}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface231
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.905777, z: 1.1077425}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface232
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.905777, z: 0.6646468}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface233
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.905777, z: -2.4370036}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface234
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.905777, z: -1.1077262}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface235
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.905777, z: -1.9939079}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface236
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.905777, z: 1.993924}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface237
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.905777, z: -0.22153483}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface238
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.905777, z: -0.6646305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface239
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.905777, z: -1.5508122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface240
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -3.905777, z: 0.22155109}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface241
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -4.3343606, z: 1.5508283}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface242
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -4.3343606, z: 2.4370198}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface243
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -4.3343606, z: 1.1077425}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface244
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -4.3343606, z: 0.6646468}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface245
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -4.3343606, z: -2.4370036}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface246
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -4.3343606, z: -1.1077262}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface247
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -4.3343606, z: -1.9939079}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface248
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -4.3343606, z: 1.993924}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface249
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -4.3343606, z: -0.22153483}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface250
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -4.3343606, z: -0.6646305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface251
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -4.3343606, z: -1.5508122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface252
+      parentName: Bricks_demolish_me
+      position: {x: 0.000002321019, y: -4.3343606, z: 0.22155109}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Platform
+      parentName: environment character camera(Clone)
+      position: {x: -154.05322, y: -39.341457, z: -112.12309}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube1
+      parentName: Platform
+      position: {x: 154.05322, y: 31.392895, z: 112.12309}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube2
+      parentName: Platform
+      position: {x: 154.05322, y: 31.392895, z: 63.21751}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube3
+      parentName: Platform
+      position: {x: 154.05322, y: 31.392895, z: -14.944079}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube4
+      parentName: Platform
+      position: {x: 138.61148, y: 31.392895, z: -83.88573}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube5
+      parentName: Platform
+      position: {x: 75.96848, y: 31.392895, z: -115.6274}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube6
+      parentName: Platform
+      position: {x: -109.82204, y: 31.392895, z: -115.6274}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
